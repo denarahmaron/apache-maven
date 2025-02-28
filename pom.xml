@@ -40,6 +40,11 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.12.1</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -87,4 +92,11 @@
       </plugins>
     </pluginManagement>
   </build>
+  <repositories>
+<!--    <repository>-->
+<!--      <id>id</id>-->
+<!--      <name>name</name>-->
+<!--      <url>url</url>-->
+<!--    </repository>-->
+  </repositories>
 </project>
